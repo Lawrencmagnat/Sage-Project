@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: #384657;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main .content1 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    background: #1b1b1c;
+    border-radius: 25px;
+    padding: 40px;
+    margin: auto;
+
+}
+
+.main .content1 .document {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+
+.joined {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 25px;
+
+
+}
+
+.joined .div {
+    display: flex;
+    position: relative;
+    align-items: center;
+
+
+}
+
+
+.joined .div1 {
+    display: flex;
+    /* position: absolute; */
+    /* font-size: 25px; */
+    /* left: 25px; */
+    /* border-left: 0.1px solid black; */
+}
+
+.joined .div i {
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    left: 25px;
+    border-right: 0.1px solid rgb(104, 103, 103);
+    z-index: 15px;
+
+}
+
+.joined .div i.fa-magnifying-glass {
+    padding-right: 16px;
+    color: antiquewhite;
+
+}
+
+.joined input {
+    display: flex;
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 28px;
+    width: 534px;
+    background: rgba(51, 50, 50, 0.75);
+    outline: none;
+    border: none;
+
+}
+
+/* Rememmber to add hover */
+
+.container {
+    display: flex;
+    gap: 25px;
+    padding: 21px;
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.container .country {
+    display: flex;
+    gap: 17px;
+    border-bottom: 1px solid rgb(41, 41, 41);
+}
+
+
+
+.container .country img {
+    width: 33px;
+    height: 32px;
+}
+
+.cars {
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.cars label {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 2px;
+    color: antiquewhite;
+}
+
+.cars label span:nth-child(1) {
+    padding-left: 8px;
+    letter-spacing: 4px;
+}
+
+/* .cars label span:nth-child(2){
+    padding-left: 4px;
+} */
+
+.container .country:hover {
+    background: rgba(66, 66, 66, 0.631);
+    border-radius: 25px;
+    padding: 21px;
+
+}
+
+
+.login {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login button {
+    background: rgb(23, 23, 125);
+    border: none;
+    width: 240px;
+    height: auto;
+    padding: 22px 32px;
+    border-radius: 21px;
+    font-size: 21px;
+    color: beige;
+    font-weight: 400;
+    font-family: cursive;
+    margin: 14px;
+    transition: all .5s ease-in-out;
+
+}
+
+.login .p {
+    background: rgb(61, 61, 61) transparent;
+    border: 1px solid rgb(45, 44, 44);
+    width: 111px;
+    height: auto;
+    padding: 25px 62px;
+    margin: 12px;
+    border-radius: 29px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    color: antiquewhite;
+    font-family: sans-serif;
+
+}
+
+
+.login .p:hover {
+    background: rgb(56, 55, 55);
+    font-size: 21px;
+    color: burlywood;
+}
+
+.login button:hover {
+    background: rgb(56, 55, 55);
+    font-size: 21px;
+    color: rgb(120, 112, 101);
+    font-family: fantasy;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .main{
+        height: fit-content;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+    
+    }
+}
